@@ -10,18 +10,18 @@
         <a-asset-item id="blo-obj" src="model_obj/blo/blo.obj"></a-asset-item>
         <a-asset-item id="blo-mtl" src="model_obj/blo/blo.mtl"></a-asset-item>
     </a-assets>
-    <a-marker preset="custom"  type="pattern" url="pattern-002.patt">
-        <a-obj-model id="blo" src="#blo-obj" mtl="#blo-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
-        
-    </a-marker>
     
     <a-assets>
         <a-asset-item id="denntyu-obj" src="model_obj/denntyu/denntyu.obj"></a-asset-item>
         <a-asset-item id="denntyu-mtl" src="model_obj/denntyu/denntyu.mtl"></a-asset-item>
     </a-assets>
+    
+    <a-marker preset="custom"  type="pattern" url="pattern-002.patt">
+        <a-obj-model id="blo" src="#blo-obj" mtl="#blo-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>     
+    </a-marker>
+    
     <a-marker preset="custom"  type="pattern" url="pattern-m.patt">
         <a-obj-model id="denntyu" src="#denntyu-obj" mtl="#denntyu-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
-        
     </a-marker>
     
     <a-entity camera></a-entity>
