@@ -21,6 +21,11 @@
         <a-asset-item id="zyu-mtl" src="model_obj/zyu/zyu.mtl"></a-asset-item>
     </a-assets>
     
+     <a-assets>
+        <a-asset-item id="ztn-obj" src="model_obj/ztn/ztn.obj"></a-asset-item>
+        <a-asset-item id="ztn-mtl" src="model_obj/ztn/ztn.mtl"></a-asset-item>
+    </a-assets>
+    
 <!-- マーカーの読み込み -->
     <a-marker preset="custom"  type="pattern" url="pattern-003.patt">
         <a-obj-model id="blo" src="#blo-obj" mtl="#blo-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>     
@@ -32,6 +37,10 @@
     
     <a-marker preset="custom"  type="pattern" url="pattern-004.patt">
         <a-obj-model id="zyu" src="#zyu-obj" mtl="#zyu-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+    </a-marker>
+    
+    <a-marker preset="hiro">
+        <a-obj-model id="ztn" src="#ztn-obj" mtl="#ztn-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
     </a-marker>
     
     <a-entity camera></a-entity>
