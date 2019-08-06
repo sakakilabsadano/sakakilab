@@ -31,6 +31,17 @@
         <a-asset-item id="car-mtl" src="model_obj/car/car.mtl"></a-asset-item>
     </a-assets>
     
+    <a-assets>
+        <a-asset-item id="vmcn-obj" src="model_obj/vmc/vmcn.obj"></a-asset-item>
+        <a-asset-item id="vmcn-mtl" src="model_obj/vmc/vmcn.mtl"></a-asset-item>
+    </a-assets>
+    
+    <a-assets>
+        <a-asset-item id="tri-obj" src="model_obj/tri/tri.obj"></a-asset-item>
+        <a-asset-item id="tri-mtl" src="model_obj/tri/tri.mtl"></a-asset-item>
+    </a-assets>
+    
+    
 <!-- マーカーの読み込み -->
     <a-marker preset="custom"  type="pattern" url="pattern-003.patt">
         <a-obj-model id="blo" src="#blo-obj" mtl="#blo-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>     
@@ -44,8 +55,20 @@
         <a-obj-model id="zyu" src="#zyu-obj" mtl="#zyu-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
     </a-marker>
     
-    <a-marker preset="hiro">
+    <a-marker preset="custom"  type="pattern" url="pattern-006.patt">
        <a-obj-model id="car" src="#car-obj" mtl="#car-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+    </a-marker>
+    
+    <a-marker preset="custom"  type="pattern" url="pattern-001.patt">
+       <a-obj-model id="vmcn" src="#vmcn-obj" mtl="#vmcn-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+    </a-marker>
+    
+    <a-marker preset="custom"  type="pattern" url="pattern-005.patt">
+       <a-obj-model id="tri" src="#tri-obj" mtl="#tri-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
+    </a-marker>
+    
+    <a-marker preset="custom"  type="pattern" url="pattern-007.patt">
+       <a-obj-model id="bike" src="#bike-obj" mtl="#bike-mtl" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj-model>
     </a-marker>
     
     <a-entity camera></a-entity>
